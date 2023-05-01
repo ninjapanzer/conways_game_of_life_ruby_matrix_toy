@@ -22,3 +22,14 @@ REPL (Loads the base tools so you can play with rendering)
 ```sh
 make console
 ```
+
+## Whats next
+
+### Cell age
+Well I would like to track not just the lifecycle but also cell age.
+
+### Vector Databases
+I would like to store the generations in a vector db to allow for some FF an REWIND operations for fun
+
+### Distributed Cells
+I would like each cell to be represented by a distributed process so they can track their age as well as store a subseed to be passed to the next generation to simulate mutation.
